@@ -1,0 +1,53 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: white;
+}
+.intro-left {
+  background: url(../images/adrien-olichon-ilVYjf0J378-unsplash.jpg);
+  position: fixed;
+  width: 33.3%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .intro-left {
+    height: 35vh;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+.mahpicture {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.full-height {
+  height: 100%;
+}
+.paragraph{
+  
+  color: black;
+}
+section{
+  margin: 1rem;
+  font-size: 1.2rem ;
+  color: black;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.footer{
+  background-color: #fff;
+  font-size: 1rem;
+  margin: 0;
+}
+.panel-right{
+  background-color: #eee;
+}
